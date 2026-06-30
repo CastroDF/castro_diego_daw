@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima Actual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <span class="badge">Open-Meteo</span>
+      <h1 class="card__title">Clima Actual</h1>
+
+      <div class="card__form">
+        <input type="text" id="ciudad" placeholder="Ingresá una ciudad">
+        <button id="btnClima">Consultar</button>
+      </div>
+
+      <p id="estado" class="card__estado"></p>
+      <div id="resultado" class="card__resultado"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
